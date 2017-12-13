@@ -8,4 +8,4 @@ Downloads and displays a sites SSL certificate.
 ./get-ssl-certificate.sh {{ domain }}
 ```
 ### Where,
- * `domain` the site view the SSL of
+ * `domain` the domain of the SSL certificate to view
