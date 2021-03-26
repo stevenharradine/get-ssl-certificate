@@ -8,7 +8,8 @@ Downloads and displays a sites SSL certificate.
 ```
 ./get-ssl-certificate.sh {{ domain }}
 ```
-### Windows (this is 100% an afterthought of the main program for *nix, youve been warned)
+### Windows
+this is 100% an afterthought of the main program for *nix, youve been warned
 ```
 get-ssl-certificate.bat {{ domain }}
 ```
