@@ -16,6 +16,7 @@ get-ssl-certificate.bat {{ domain }}
 ### Where,
  * `domain` the domain of the SSL certificate to view
  * `arguments`   is one or more of:
+```
      --hide-all, +noall                               hide the whole certificate results, use in conjection with one of the show options
      --show-version, +version                         show version
      --show-serialNumber, +serialNumber               show serial number
@@ -24,3 +25,4 @@ get-ssl-certificate.bat {{ domain }}
      --show-validity, +validity                       show validity
      --show-subject, +subject                         show subject
      --show-help, -?, -h                              Show this help menu and exit
+```
