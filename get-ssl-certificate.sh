@@ -36,7 +36,7 @@ done
 if [[ $showHelp == true ]]; then
 	echo "Usage:  get-ssl-certificate [domain] [arguments]"
 	echo "Where:  domain      is in the Domain Name System"
-	echo "        arguments   is one of:"
+	echo "        arguments   is one or more of:"
 	echo "                     --hide-all, +noall                               hide the whole certificate results, use in conjection with one of the show options"
 	echo "                     --show-version, +version                         show version"
 	echo "                     --show-serialNumber, +serialNumber               show serial number"
@@ -46,7 +46,7 @@ if [[ $showHelp == true ]]; then
 	echo "                     --show-subject, +subject                         show subject"
 	echo "                     --show-help, -?, -h                              Show this help menu and exit"
 
-	break 0;
+	exit 0;
 fi
 
 site=$1
